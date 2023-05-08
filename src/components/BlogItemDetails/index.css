@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-width: 1px;
+  width: 90%;
+}
+.avatar-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  padding-left: 10%;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.name {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: 500;
+}
+.image {
+  width: 80%;
+}
+.content {
+  width: 80%;
+}
